@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj", "{492C6650-4ACF-4D84-B1A2-05BC8BD5D468}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Unit.Tests", "tests\Application\Application.Unit.Tests.csproj", "{7BF4AAC9-A2CE-4B9C-AB52-F83E3F8EB9BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Unit.Tests", "tests\Application.Unit.Tests\Application.Unit.Tests.csproj", "{7BF4AAC9-A2CE-4B9C-AB52-F83E3F8EB9BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{54FEBF8A-FA0F-42E6-AE81-F856025D9FC6}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{73ECCBFB-B6EC-4E3C-BF7E-0CF9159517CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Unit.Tests", "Infrastructure.Unit.Tests\Infrastructure.Unit.Tests.csproj", "{F311141A-A5C7-4F26-A35C-B3F135D5BF3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Unit.Tests", "tests\Infrastructure.Unit.Tests\Infrastructure.Unit.Tests.csproj", "{F311141A-A5C7-4F26-A35C-B3F135D5BF3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
