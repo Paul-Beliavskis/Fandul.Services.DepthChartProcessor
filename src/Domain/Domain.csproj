@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>Fandul.Services.DepthChartProcessor.Domain</RootNamespace>
+		<AssemblyName>Fandul.Services.DepthChartProcessor.Domain</AssemblyName>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>

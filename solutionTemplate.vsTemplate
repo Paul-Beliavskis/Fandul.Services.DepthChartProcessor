@@ -1,0 +1,19 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Mecca.Services._SERVICENAME_</Name>
+        <Description>Mecca's microservice template for smaller services</Description>
+        <Icon></Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+                <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+                    Mecca.Services.$ext_safeprojectname$\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Unit.Tests" CopyParameters="true">
+                    Mecca.Services.$ext_safeprojectname$.Unit.Tests\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>
